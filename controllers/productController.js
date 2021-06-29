@@ -132,7 +132,7 @@ const deleteProduct = async (req, res, next) => {
 const getTopViewedProducts = async (req, res, next) => {
     try {
         const amount = req.query.top ? req.query.top : 5;
-        const currency = req.query.currency;
+        const currency = req.query.currency ? req.query.currency : "USD";
         const topProducts = await productData.getTopViewedProducts(amount);
         
         if (isValidCurrency(currency)) {
