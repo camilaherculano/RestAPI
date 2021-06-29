@@ -1,6 +1,6 @@
 # RESTAPI
 
-Before start, make sure you havee installed:
+Before start, make sure you have installed:
 
 ```bash
 docker -v
