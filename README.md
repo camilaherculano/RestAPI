@@ -97,7 +97,7 @@ Body JSON:
 ```bash
     {
         "name": "Shoelala",
-        "description": "Shoes for man on a special ocasion",
+        "description": "Shoes for man on a special occasion",
         "price": 92.32,
         "currency": "USD",
         "views": 639,
@@ -114,7 +114,7 @@ Body JSON:
 ```bash
     {
         "name": "Shoelala",
-        "description": "Shoes for man on ANY ocasion",
+        "description": "Shoes for man on ANY occasion",
         "price": 57.89,
         "currency": "USD",
         "views": 639,
